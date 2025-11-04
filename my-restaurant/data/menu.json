@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Masala Dosa",
+        "description": "A crispy South Indian crepe made from fermented rice and lentil batter, stuffed with spiced potato filling and served with chutney and sambar.",
+        "category": "Vegetarian",
+        "cuisine": "Indian",
+        "image": "resources/img/Masala_Dosa.jpeg",
+        "ingredients": "Rice, lentils, potatoes, curry leaves, mustard seeds, green chilies, turmeric",
+        "price": "$9.99"
+    },
+    {
+        "name": "Mutton Biryani",
+        "description": "A fragrant, slow-cooked rice dish layered with tender marinated mutton, saffron, caramelized onions, and aromatic spices.",
+        "category": "Non-Vegetarian",
+        "cuisine": "Indian",
+        "image": "resources/img/Mutton_Biryani.jpg",
+        "ingredients": "Basmati rice, mutton, saffron, ghee, caramelized onions, cloves, cardamom, yogurt",
+        "price": "$14.99"
+    },
+    {
+        "name": "Drunken Noodles",
+        "description": "Spicy and savory Thai noodles stir-fried with chicken, bell peppers, carrots, basil, and garlic in a flavorful soy sauce blend.",
+        "category": "Non-Vegetarian",
+        "cuisine": "Thai",
+        "image": "resources/img/Drunken_Noodles.jpeg",
+        "ingredients": "Rice noodles, chicken, soy sauce, chili, garlic, basil, carrots, bell peppers",
+        "price": "$12.99"
+    },
+    {
+        "name": "Chicken Shawarma Wrap",
+        "description": "Tender marinated chicken wrapped in soft pita bread with garlic sauce, pickled cabbage, and fresh vegetables.",
+        "category": "Non-Vegetarian",
+        "cuisine": "Middle Eastern",
+        "image": "resources/img/Chicken_Shawarma.jpg",
+        "ingredients": "Chicken, pita bread, garlic sauce, pickled vegetables, lettuce, onions",
+        "price": "$10.99"
+    }
+]
