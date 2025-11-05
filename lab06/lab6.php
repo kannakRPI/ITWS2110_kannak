@@ -4,12 +4,10 @@ abstract class Operation {
   protected $operand_1;
   protected $operand_2;
   public function __construct($o1, $o2) {
-    // Make sure we're working with numbers...
     if (!is_numeric($o1) || !is_numeric($o2)) {
       throw new Exception('Non-numeric operand.');
     }
     
-    // Assign passed values to member variables
     $this->operand_1 = $o1;
     $this->operand_2 = $o2;
   }
@@ -17,7 +15,6 @@ abstract class Operation {
   public abstract function getEquation(); 
 }
 
-// Addition subclass inherits from Operation
 class Addition extends Operation {
   public function operate() {
     return $this->operand_1 + $this->operand_2;
